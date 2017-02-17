@@ -14,15 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     
     @IBAction func moreButtonPressed(_ sender: Any) {
-        print("more button pressed")
+        let blackView = UIView()
+        blackView.backgroundColor = UIColor.black
+        
+        view.addSubview(blackView)
+        blackView.frame = view.frame
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    func handleSearch() {
-        print("handleSearch")
     }
 
     override func didReceiveMemoryWarning() {
