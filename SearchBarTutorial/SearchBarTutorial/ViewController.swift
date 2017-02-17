@@ -14,11 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     
     @IBAction func moreButtonPressed(_ sender: Any) {
-        let blackView = UIView()
-        blackView.backgroundColor = UIColor.black
         
-        view.addSubview(blackView)
-        blackView.frame = view.frame
+        if let window = UIApplication.shared.keyWindow {
+            
+            let blackView = UIView()
+            
+            blackView.backgroundColor = UIColor(white: 0, alpha: 0.5)
+            
+            window.addSubview(blackView)
+            blackView.frame = window.frame
+        }
     }
     
     override func viewDidLoad() {
