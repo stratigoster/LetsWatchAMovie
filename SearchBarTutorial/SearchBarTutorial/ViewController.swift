@@ -9,14 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var annoyed: UIBarButtonItem!
     
-    @IBAction func hauptanoff(_ sender: Any) {
-        print("just wired differently interestingly enough")
-    }
-    
+    @IBOutlet weak var moreButton: UIBarButtonItem!
     @IBOutlet weak var searchBar: UISearchBar!
+    
+    @IBAction func moreButtonPressed(_ sender: Any) {
+        print("more button pressed")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

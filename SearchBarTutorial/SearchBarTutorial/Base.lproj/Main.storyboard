@@ -44,12 +44,12 @@
                     <navigationItem key="navigationItem" id="fiZ-i3-g20">
                         <barButtonItem key="rightBarButtonItem" image="plus" id="LdY-Rd-A70" userLabel="BarButtonItem">
                             <connections>
-                                <action selector="hauptanoff:" destination="BYZ-38-t0r" id="3Uf-W4-zZL"/>
+                                <action selector="moreButtonPressed:" destination="BYZ-38-t0r" id="vXO-Ts-1qG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="annoyed" destination="LdY-Rd-A70" id="NeJ-LZ-M00"/>
+                        <outlet property="moreButton" destination="LdY-Rd-A70" id="ftM-jN-iEx"/>
                         <outlet property="searchBar" destination="GtI-PC-hQB" id="QOG-eH-z5y"/>
                     </connections>
                 </viewController>
