@@ -35,7 +35,6 @@ class SettingLauncher: NSObject {
     func handleDismiss() {
         UIView.animate(withDuration: 0.5, animations: {
             self.blackView.alpha = 0
-           
         })
     }
 

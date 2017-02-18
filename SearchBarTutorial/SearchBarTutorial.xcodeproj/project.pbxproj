@@ -13,6 +13,9 @@
 		AE2B94CD1E5762BB00643518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2B94CC1E5762BB00643518 /* Assets.xcassets */; };
 		AE2B94D01E5762BB00643518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B94CE1E5762BB00643518 /* LaunchScreen.storyboard */; };
 		AECB52971E57A1CC0007AE42 /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB52961E57A1CC0007AE42 /* SettingsLauncher.swift */; };
+		AECB52991E57DEAF0007AE42 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB52981E57DEAF0007AE42 /* PersonCell.swift */; };
+		AECB529B1E57E0F00007AE42 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB529A1E57E0F00007AE42 /* Person.swift */; };
+		AECB52A11E57F58A0007AE42 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB52A01E57F58A0007AE42 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AE2B94CF1E5762BB00643518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2B94D11E5762BB00643518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECB52961E57A1CC0007AE42 /* SettingsLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
+		AECB52981E57DEAF0007AE42 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		AECB529A1E57E0F00007AE42 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AECB52A01E57F58A0007AE42 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		AE2B94C41E5762BB00643518 /* SearchBarTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				AECB529F1E57ED610007AE42 /* Helper */,
+				AECB529E1E57ED490007AE42 /* Controller */,
+				AECB529D1E57ED450007AE42 /* View */,
+				AECB529C1E57ED3F0007AE42 /* Modal */,
 				AE2B94C51E5762BB00643518 /* AppDelegate.swift */,
-				AE2B94C71E5762BB00643518 /* ViewController.swift */,
 				AE2B94C91E5762BB00643518 /* Main.storyboard */,
 				AE2B94CC1E5762BB00643518 /* Assets.xcassets */,
 				AE2B94CE1E5762BB00643518 /* LaunchScreen.storyboard */,
 				AE2B94D11E5762BB00643518 /* Info.plist */,
-				AECB52961E57A1CC0007AE42 /* SettingsLauncher.swift */,
 			);
 			path = SearchBarTutorial;
+			sourceTree = "<group>";
+		};
+		AECB529C1E57ED3F0007AE42 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				AECB529A1E57E0F00007AE42 /* Person.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		AECB529D1E57ED450007AE42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AECB52981E57DEAF0007AE42 /* PersonCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AECB529E1E57ED490007AE42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B94C71E5762BB00643518 /* ViewController.swift */,
+				AECB52A01E57F58A0007AE42 /* DetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AECB529F1E57ED610007AE42 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AECB52961E57A1CC0007AE42 /* SettingsLauncher.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECB529B1E57E0F00007AE42 /* Person.swift in Sources */,
 				AE2B94C81E5762BB00643518 /* ViewController.swift in Sources */,
 				AE2B94C61E5762BB00643518 /* AppDelegate.swift in Sources */,
+				AECB52A11E57F58A0007AE42 /* DetailViewController.swift in Sources */,
+				AECB52991E57DEAF0007AE42 /* PersonCell.swift in Sources */,
 				AECB52971E57A1CC0007AE42 /* SettingsLauncher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
