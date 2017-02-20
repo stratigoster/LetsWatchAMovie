@@ -42,20 +42,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="111" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VKe-Ts-9TX">
-                                                    <rect key="frame" x="0.0" y="0.0" width="111" height="81"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="I stopped caring long ago" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p2t-s0-f25">
+                                                    <rect key="frame" x="-65" y="8" width="176" height="104"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TzP-ep-rLK">
+                                                    <rect key="frame" x="-14" y="11" width="139" height="75"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.25996079637154035" green="0.32950008295555555" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="VKe-Ts-9TX" secondAttribute="bottom" constant="2" id="1ck-1h-ZQL"/>
-                                            <constraint firstAttribute="trailing" secondItem="VKe-Ts-9TX" secondAttribute="trailing" constant="2" id="9KU-DC-JtF"/>
-                                            <constraint firstItem="VKe-Ts-9TX" firstAttribute="top" secondItem="hIp-a4-YQf" secondAttribute="top" constant="2" id="UPP-Bl-xiX"/>
-                                            <constraint firstItem="VKe-Ts-9TX" firstAttribute="leading" secondItem="hIp-a4-YQf" secondAttribute="leading" constant="2" id="wb7-cf-cZ5"/>
+                                            <constraint firstItem="p2t-s0-f25" firstAttribute="leading" secondItem="hIp-a4-YQf" secondAttribute="leading" id="1Y9-tv-ED1"/>
+                                            <constraint firstAttribute="trailing" secondItem="p2t-s0-f25" secondAttribute="trailing" id="7h8-ZU-Svc"/>
+                                            <constraint firstAttribute="bottom" secondItem="p2t-s0-f25" secondAttribute="bottom" id="IXq-V8-YO7"/>
+                                            <constraint firstItem="p2t-s0-f25" firstAttribute="top" secondItem="hIp-a4-YQf" secondAttribute="top" id="irW-6n-ztx"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="flagImageView" destination="VKe-Ts-9TX" id="9gg-OX-U5v"/>
                                             <segue destination="xj4-oQ-cOa" kind="show" identifier="toDetailView" id="Iwi-YP-s2Y"/>
                                         </connections>
                                     </collectionViewCell>

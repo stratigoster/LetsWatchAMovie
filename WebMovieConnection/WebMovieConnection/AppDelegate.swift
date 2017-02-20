@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SearchBarTutorial
+//  WebMovieConnection
 //
-//  Created by xszhao on 2017-02-17.
+//  Created by xszhao on 2017-02-18.
 //  Copyright © 2017 xszhao. All rights reserved.
 //
 
