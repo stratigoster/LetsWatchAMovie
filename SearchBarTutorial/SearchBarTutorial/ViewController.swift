@@ -37,6 +37,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         return videos.count
     }
     
+
+
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt  indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! PersonCell
@@ -54,6 +57,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         for i in 100...140 {
             let url = baseUrl + String(i) + apiURL + appendixURL
             let updateUrl = NSURL(string: url)
+            print("updateUrl: ")
+            print(updateUrl?.absoluteString)
             URLSession.shared.dataTask(with: updateUrl as! URL) { (data, response, error) in
                 if error != nil {
                     print(error!)

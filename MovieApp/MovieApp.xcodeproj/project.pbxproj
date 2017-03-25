@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AECB52851E57664F0007AE42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB52841E57664F0007AE42 /* AppDelegate.swift */; };
-		AECB52871E57664F0007AE42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB52861E57664F0007AE42 /* ViewController.swift */; };
-		AECB528A1E57664F0007AE42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECB52881E57664F0007AE42 /* Main.storyboard */; };
-		AECB528C1E57664F0007AE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECB528B1E57664F0007AE42 /* Assets.xcassets */; };
-		AECB528F1E57664F0007AE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECB528D1E57664F0007AE42 /* LaunchScreen.storyboard */; };
+		AE5803C61E86231E003574ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5803C51E86231E003574ED /* AppDelegate.swift */; };
+		AE5803C81E86231E003574ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5803C71E86231E003574ED /* ViewController.swift */; };
+		AE5803CB1E86231E003574ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5803C91E86231E003574ED /* Main.storyboard */; };
+		AE5803CD1E86231E003574ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5803CC1E86231E003574ED /* Assets.xcassets */; };
+		AE5803D01E86231E003574ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5803CE1E86231E003574ED /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AECB52811E57664F0007AE42 /* MyYoutubeAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyYoutubeAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AECB52841E57664F0007AE42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AECB52861E57664F0007AE42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AECB52891E57664F0007AE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AECB528B1E57664F0007AE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AECB528E1E57664F0007AE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AECB52901E57664F0007AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5803C21E86231E003574ED /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5803C51E86231E003574ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE5803C71E86231E003574ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE5803CA1E86231E003574ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE5803CC1E86231E003574ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5803CF1E86231E003574ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE5803D11E86231E003574ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AECB527E1E57664F0007AE42 /* Frameworks */ = {
+		AE5803BF1E86231D003574ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AECB52781E57664F0007AE42 = {
+		AE5803B91E86231D003574ED = {
 			isa = PBXGroup;
 			children = (
-				AECB52831E57664F0007AE42 /* MyYoutubeAgain */,
-				AECB52821E57664F0007AE42 /* Products */,
+				AE5803C41E86231E003574ED /* MovieApp */,
+				AE5803C31E86231E003574ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AECB52821E57664F0007AE42 /* Products */ = {
+		AE5803C31E86231E003574ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AECB52811E57664F0007AE42 /* MyYoutubeAgain.app */,
+				AE5803C21E86231E003574ED /* MovieApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AECB52831E57664F0007AE42 /* MyYoutubeAgain */ = {
+		AE5803C41E86231E003574ED /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				AECB52841E57664F0007AE42 /* AppDelegate.swift */,
-				AECB52861E57664F0007AE42 /* ViewController.swift */,
-				AECB52881E57664F0007AE42 /* Main.storyboard */,
-				AECB528B1E57664F0007AE42 /* Assets.xcassets */,
-				AECB528D1E57664F0007AE42 /* LaunchScreen.storyboard */,
-				AECB52901E57664F0007AE42 /* Info.plist */,
+				AE5803C51E86231E003574ED /* AppDelegate.swift */,
+				AE5803C71E86231E003574ED /* ViewController.swift */,
+				AE5803C91E86231E003574ED /* Main.storyboard */,
+				AE5803CC1E86231E003574ED /* Assets.xcassets */,
+				AE5803CE1E86231E003574ED /* LaunchScreen.storyboard */,
+				AE5803D11E86231E003574ED /* Info.plist */,
 			);
-			path = MyYoutubeAgain;
+			path = MovieApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AECB52801E57664F0007AE42 /* MyYoutubeAgain */ = {
+		AE5803C11E86231D003574ED /* MovieApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AECB52931E57664F0007AE42 /* Build configuration list for PBXNativeTarget "MyYoutubeAgain" */;
+			buildConfigurationList = AE5803D41E86231E003574ED /* Build configuration list for PBXNativeTarget "MovieApp" */;
 			buildPhases = (
-				AECB527D1E57664F0007AE42 /* Sources */,
-				AECB527E1E57664F0007AE42 /* Frameworks */,
-				AECB527F1E57664F0007AE42 /* Resources */,
+				AE5803BE1E86231D003574ED /* Sources */,
+				AE5803BF1E86231D003574ED /* Frameworks */,
+				AE5803C01E86231D003574ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyYoutubeAgain;
-			productName = MyYoutubeAgain;
-			productReference = AECB52811E57664F0007AE42 /* MyYoutubeAgain.app */;
+			name = MovieApp;
+			productName = MovieApp;
+			productReference = AE5803C21E86231E003574ED /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AECB52791E57664F0007AE42 /* Project object */ = {
+		AE5803BA1E86231D003574ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = xszhao;
 				TargetAttributes = {
-					AECB52801E57664F0007AE42 = {
+					AE5803C11E86231D003574ED = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = URDT8CB4R4;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = AECB527C1E57664F0007AE42 /* Build configuration list for PBXProject "MyYoutubeAgain" */;
+			buildConfigurationList = AE5803BD1E86231D003574ED /* Build configuration list for PBXProject "MovieApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = AECB52781E57664F0007AE42;
-			productRefGroup = AECB52821E57664F0007AE42 /* Products */;
+			mainGroup = AE5803B91E86231D003574ED;
+			productRefGroup = AE5803C31E86231E003574ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AECB52801E57664F0007AE42 /* MyYoutubeAgain */,
+				AE5803C11E86231D003574ED /* MovieApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AECB527F1E57664F0007AE42 /* Resources */ = {
+		AE5803C01E86231D003574ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECB528F1E57664F0007AE42 /* LaunchScreen.storyboard in Resources */,
-				AECB528C1E57664F0007AE42 /* Assets.xcassets in Resources */,
-				AECB528A1E57664F0007AE42 /* Main.storyboard in Resources */,
+				AE5803D01E86231E003574ED /* LaunchScreen.storyboard in Resources */,
+				AE5803CD1E86231E003574ED /* Assets.xcassets in Resources */,
+				AE5803CB1E86231E003574ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AECB527D1E57664F0007AE42 /* Sources */ = {
+		AE5803BE1E86231D003574ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECB52871E57664F0007AE42 /* ViewController.swift in Sources */,
-				AECB52851E57664F0007AE42 /* AppDelegate.swift in Sources */,
+				AE5803C81E86231E003574ED /* ViewController.swift in Sources */,
+				AE5803C61E86231E003574ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AECB52881E57664F0007AE42 /* Main.storyboard */ = {
+		AE5803C91E86231E003574ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AECB52891E57664F0007AE42 /* Base */,
+				AE5803CA1E86231E003574ED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AECB528D1E57664F0007AE42 /* LaunchScreen.storyboard */ = {
+		AE5803CE1E86231E003574ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AECB528E1E57664F0007AE42 /* Base */,
+				AE5803CF1E86231E003574ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AECB52911E57664F0007AE42 /* Debug */ = {
+		AE5803D21E86231E003574ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		AECB52921E57664F0007AE42 /* Release */ = {
+		AE5803D31E86231E003574ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,25 +257,27 @@
 			};
 			name = Release;
 		};
-		AECB52941E57664F0007AE42 /* Debug */ = {
+		AE5803D51E86231E003574ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyYoutubeAgain/Info.plist;
+				DEVELOPMENT_TEAM = URDT8CB4R4;
+				INFOPLIST_FILE = MovieApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.MyYoutubeAgain;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MovieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		AECB52951E57664F0007AE42 /* Release */ = {
+		AE5803D61E86231E003574ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyYoutubeAgain/Info.plist;
+				DEVELOPMENT_TEAM = URDT8CB4R4;
+				INFOPLIST_FILE = MovieApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.MyYoutubeAgain;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MovieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,24 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AECB527C1E57664F0007AE42 /* Build configuration list for PBXProject "MyYoutubeAgain" */ = {
+		AE5803BD1E86231D003574ED /* Build configuration list for PBXProject "MovieApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AECB52911E57664F0007AE42 /* Debug */,
-				AECB52921E57664F0007AE42 /* Release */,
+				AE5803D21E86231E003574ED /* Debug */,
+				AE5803D31E86231E003574ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AECB52931E57664F0007AE42 /* Build configuration list for PBXNativeTarget "MyYoutubeAgain" */ = {
+		AE5803D41E86231E003574ED /* Build configuration list for PBXNativeTarget "MovieApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AECB52941E57664F0007AE42 /* Debug */,
-				AECB52951E57664F0007AE42 /* Release */,
+				AE5803D51E86231E003574ED /* Debug */,
+				AE5803D61E86231E003574ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AECB52791E57664F0007AE42 /* Project object */;
+	rootObject = AE5803BA1E86231D003574ED /* Project object */;
 }

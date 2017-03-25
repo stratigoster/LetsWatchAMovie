@@ -61,7 +61,7 @@ class CustomImageView: UIImageView {
                 //print(imageToCache?.description)
                 //if self.imageUrlString == urlString {
                 
-                self.image = imageCache
+                //self.image = imageCache
                 //}
                 
                 //imageCache.setObject(imageToCache!, forKey: urlString as AnyObject)
